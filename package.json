@@ -1,0 +1,33 @@
+{
+  "name": "require-install",
+  "version": "0.1.0",
+  "description": "Install a package at runtime if it's not present",
+  "main": "lib/require-install.js",
+  "scripts": {
+    "test": "mocha"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/crobays/require-install.git"
+  },
+  "keywords": [
+    "require",
+    "install",
+    "runtime"
+  ],
+  "author": {
+    "name": "Maikel Vlasman",
+    "email": "require-install-q46ke5mph@userex.nl",
+    "url": "https://github.com/crobays"
+  },
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/crobays/require-install/issues"
+  },
+  "homepage": "https://github.com/crobays/require-install",
+  "devDependencies": {
+    "chai": "^2.3.0",
+    "dot-json": "^1.0.3",
+    "mocha": "^2.2.5"
+  }
+}
