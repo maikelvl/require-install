@@ -4,11 +4,6 @@ Require install enable you to automatically install packages when you require th
 There is no performance lost (other than loading this package of course) because require-install at very first tries to require() your package the usual way.
 
 ## Installation
-Global
-```bash
-npm install -g require-install
-```
-or local
 ```bash
 npm install --save require-install
 ```
