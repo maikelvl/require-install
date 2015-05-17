@@ -1,7 +1,7 @@
 {
   "name": "require-install",
   "version": "0.1.0",
-  "description": "Install a package at runtime if it's not present",
+  "description": "Automatically install non-installed packages when you require them",
   "main": "lib/require-install.js",
   "scripts": {
     "test": "mocha"
@@ -27,7 +27,11 @@
   "homepage": "https://github.com/crobays/require-install",
   "devDependencies": {
     "chai": "^2.3.0",
-    "dot-json": "^1.0.3",
     "mocha": "^2.2.5"
+  },
+  "dependencies": {
+    "descrevit": "^0.1.0",
+    "dot-json": "^1.0.3",
+    "npm": "^2.10.0"
   }
 }
