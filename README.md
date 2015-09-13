@@ -1,5 +1,5 @@
 # Require Install
-Require install enable you to automatically install packages when you require them. Very usefull for keeping your productivity high.
+Require install enables you to automatically install packages when you require them. Very usefull for keeping your productivity high.
 
 There is no performance lost (other than loading this package of course) because require-install at very first tries to require() your package the usual way.
 
@@ -15,8 +15,12 @@ var require_install = require('require-install');
 // Just replace your require() with require_install():
 var the_package = require_install('the-package');
 
+// Install a package by repository (just like npm install your-git/package)
+var git_package = require_install('your-git/node-package'); // Resolves to github.com/your-git/package
+
 // If it can't require it, it will install it and add it to your dependencies
 
+// You can now use that package:
 the_package.doSomething();
 ```
 
