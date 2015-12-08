@@ -1,6 +1,6 @@
 {
   "name": "require-install",
-  "version": "0.3.2",
+  "version": "0.3.3",
   "description": "Automatically install non-installed packages when you require them",
   "main": "lib/require-install.js",
   "scripts": {
