@@ -30,7 +30,7 @@
     "mocha": "^2.2.5"
   },
   "dependencies": {
-    "descrevit": "^0.1.0",
+    "descrevit": "^0.1.1",
     "dot-json": "^1.0.3",
     "npm": "^2.10.0"
   }
