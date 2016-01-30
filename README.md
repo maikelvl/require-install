@@ -38,7 +38,7 @@ If you wish to require-install packages without output, add the following to you
 
 
 ## License
-Copyright (c) 2015 Maikel Vlasman
+Copyright (c) 2016 Maikel Vlasman
 
 Permission is hereby granted, free of charge, to any person obtaining a
 copy of this software and associated documentation files (the "Software"),
