@@ -8,7 +8,7 @@
   },
   "repository": {
     "type": "git",
-    "url": "https://github.com/crobays/require-install.git"
+    "url": "https://github.com/maikelvl/require-install.git"
   },
   "keywords": [
     "require",
@@ -18,13 +18,13 @@
   "author": {
     "name": "Maikel Vlasman",
     "email": "require-install-q46ke5mph@userex.nl",
-    "url": "https://github.com/crobays"
+    "url": "https://github.com/maikelvl"
   },
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/crobays/require-install/issues"
+    "url": "https://github.com/maikelvl/require-install/issues"
   },
-  "homepage": "https://github.com/crobays/require-install",
+  "homepage": "https://github.com/maikelvl/require-install",
   "devDependencies": {
     "chai": "^2.3.0",
     "mocha": "^2.2.5"
